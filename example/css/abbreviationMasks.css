@@ -3,42 +3,32 @@
 //  Developed by: Ing.Gerardo Garita J.     //
 //                FullStack Developer       //
 //  email:  info@ggaritaj.com               //
-//  date:       wednesday, 2018-08-18       //
-//  last date:  wednesday, 2018-08-18       //
+//  date:       wednesday, 2018-08-19       //
+//  last date:  wednesday, 2018-08-19       //
 ////////////////////////////////////////////*/
-/* UNIT ABBREVS : STARTS */
+/* UNIT ABBREVS : START */
 .Abbrev {
     position: relative;
 }
-    .Abbrev:before {
-        height: 40px !important;
-        position: absolute;
-        font-size: 16px;
-        font-weight: bold;
-        color: #888;
-        margin-top: 10px;
-        padding-left: 10px;
-        cursor: text;
-        z-index: 100;
-    }
+.Abbrev:before {
+    height: 40px !important;
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    color: #888;
+    margin-top: 10px;
+    padding-left: 10px;
+    cursor: text;
+    z-index: 100;
+    right: 5px;
+    width:0px;
+    height:0px;
+}
 
-    .Abbrev.money input,
-    .Abbrev.money select {
-        padding-right: 10px !important;
-        padding-left: 30px !important;
-    }
-    .Abbrev.money:before {
-        left: 5px !important;
-    }
-
-    .Abbrev.moneyAlt input,
-    .Abbrev.moneyAlt select {
-        padding-right: 10px !important;
-        padding-left: 30px !important;
-    }
-    .Abbrev.moneyAlt:before {
-        left: 5px !important;
-    }
+.Abbrev input,
+.Abbrev select {
+    padding-right: 35px !important
+}
 
 .altitude {
 }
@@ -46,23 +36,6 @@
 }
 .temperature {
 }
-    .altitude:before,
-    .velocity:before,
-    .temperature:before {
-        right: 5px;
-    }
-
-.altitude input,
-.altitude select,
-.velocity input,
-.velocity select {
-    padding-right: 65px !important
-}
-.temperature input,
-.temperature select {
-    padding-right: 15px !important
-}
-
 .area {
 }
 .weight {
@@ -71,19 +44,11 @@
 }
 .precipitation {
 }
-.latitudeLongitude {
+.latitude {
+}
+.longitude {
 }
 .distance {
-}
-.timeYear {
-}
-.timeMonth {
-}
-.timeWeek {
-}
-.timeDay {
-}
-.timeHour {
 }
 .time {
 }
@@ -91,8 +56,29 @@
 }
 .moneyAlt {
 }
-/* UNIT ABBREVS : ENDS */
-/* THOUSANDS SEPARATOR : STARTS */
+
+.altitude input,
+.altitude select,
+.velocity input,
+.velocity select {
+    padding-right: 65px !important
+}
+
+.money input,
+.money select,
+.moneyAlt input,
+.moneyAlt select {
+    padding-right: 10px !important;
+    padding-left: 30px !important;
+}
+
+.money:before,
+.moneyAlt:before {
+    left: 5px !important;
+}
+/* UNIT ABBREVS : END */
+
+/* THOUSANDS SEPARATOR : START */
 div.thousandsMask {
     position: relative;
 }
@@ -115,4 +101,4 @@ input.thousandsMask {
     input.thousandsMask:focus {
         color: #666 !important;
     }
-/* THOUSANDS SEPARATOR : ENDS */
+/* THOUSANDS SEPARATOR : END */

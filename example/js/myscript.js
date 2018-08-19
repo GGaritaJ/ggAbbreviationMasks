@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $("div.Abbrev").ggAbbreviationMasks().Abbreviation({
-        abbreviations: ["area", "weight", "percentage", "distance", "precipitation", "temperature", "altitude", "velocity", "time", "latitudeLongitude", "money", "moneyAlt", "custom"]
+        abbreviations: ["area", "weight", "percentage", "distance", "precipitation", "temperature", "altitude", "velocity", "time", "latitude", "longitude", "money", "moneyAlt", "custom"]
     });
     $("div.thousandsMask").ggAbbreviationMasks().ThousandsMask({
         thousandseparator: ",",

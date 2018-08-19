@@ -3,17 +3,16 @@
 //  Developed by: Ing.Gerardo Garita J.     //
 //                FullStack Developer       //
 //  email:  info@ggaritaj.com               //
-//  date:       wednesday, 2018-08-18       //
-//  last date:  wednesday, 2018-08-18       //
+//  date:       wednesday, 2018-08-19       //
+//  last date:  wednesday, 2018-08-19       //
 //////////////////////////////////////////////
-
 ; (function ($) {
     jQuery.fn.ggAbbreviationMasks = function () {
         return this;
     };
     jQuery.fn.ggAbbreviationMasks().Abbreviation = function (opts) {
         try {
-            var _abbreviations = ["area", "weight", "percentage", "distance", "precipitation", "temperature", "altitude", "velocity", "time", "latitudeLongitude", "money", "moneyAlt", "custom"];
+            var _abbreviations = ["area", "weight", "percentage", "distance", "precipitation", "temperature", "altitude", "velocity", "time", "latitude", "longitude", "money", "moneyAlt", "custom"];
             if ((opts != undefined) && (opts != null) && (opts !== "")) {
                 if (opts.hasOwnProperty('abbreviations')) {
                     _abbreviations = opts.abbreviations;

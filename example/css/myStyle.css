@@ -13,6 +13,11 @@
     margin-bottom:20px;
 }
 
+.custom input,
+.custom select {
+    padding-right: 85px !important
+}
+
 input.myStyle,
 select.myStyle {
     font-family: Verdana, Tahoma, sans-serif;
