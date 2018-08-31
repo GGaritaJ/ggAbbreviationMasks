@@ -13,9 +13,12 @@
     margin-bottom:20px;
 }
 
+.custom:before{
+    right:90px;
+}
 .custom input,
 .custom select {
-    padding-right: 85px !important
+    padding-right: 90px !important
 }
 
 input.myStyle,

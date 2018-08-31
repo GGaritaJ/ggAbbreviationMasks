@@ -20,14 +20,14 @@
     padding-left: 10px;
     cursor: text;
     z-index: 100;
-    right: 5px;
+    right: 35px;
     width:0px;
     height:0px;
 }
 
 .Abbrev input,
 .Abbrev select {
-    padding-right: 35px !important
+    padding-right: 40px !important
 }
 
 .altitude {
@@ -62,6 +62,12 @@
 .velocity input,
 .velocity select {
     padding-right: 65px !important
+}
+
+.altitude:before,
+.altitude:before,
+.velocity:before {
+    right: 60px !important
 }
 
 .money input,
