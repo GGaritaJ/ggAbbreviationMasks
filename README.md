@@ -20,6 +20,7 @@ $("div.Abbrev").ggAbbreviationMasks().Abbreviation({
                     "money", "moneyAlt", 
                     "custom"] //default units
 });
+
 $("div.thousandsMask").ggAbbreviationMasks().ThousandsMask({
     thousandseparator: ",",
     decimalseparator: ".",
