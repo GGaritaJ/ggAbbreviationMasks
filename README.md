@@ -6,7 +6,19 @@ Plugin based on jquery that allows the summary handling of abbreviations (ex: ar
 Usage:
 ```javascript
 $("div.Abbrev").ggAbbreviationMasks().Abbreviation({
-    abbreviations: ["area", "weight", "percentage", "distance", "precipitation", "temperature", "altitude", "velocity", "time", "latitude", "longitude", "money", "moneyAlt", "custom"]
+    abbreviations: ["area", 
+                    "weight", 
+                    "percentage", 
+                    "distance", 
+                    "precipitation", 
+                    "temperature", 
+                    "altitude", 
+                    "velocity", 
+                    "time", 
+                    "latitude", 
+                    "longitude", 
+                    "money", "moneyAlt", 
+                    "custom"] //default units
 });
 $("div.thousandsMask").ggAbbreviationMasks().ThousandsMask({
     thousandseparator: ",",
